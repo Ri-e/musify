@@ -1,12 +1,13 @@
-import React from "react";
-import Sidebar from "../../components/Sidebar";
+
+import Sidebar from '@/app/components/Sidebar'
+import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <Sidebar />
+        <Sidebar />
     </div>
-  );
-};
+  )
+}
 
-export default page;
+export default page

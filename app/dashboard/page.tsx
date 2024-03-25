@@ -1,14 +1,13 @@
-import React from "react";
-import Sidebar from "../components/Sidebar";
-import ListenAgain from "../components/ListenAgain";
+import React from 'react'
+import Sidebar from '../components/Sidebar'
+
 
 const page = () => {
   return (
-    <div className="bg-black text-red-600 h-screen w-full text-[25px] flex gap-2">
+    <div>
       <Sidebar />
-      <ListenAgain />
     </div>
-  );
-};
+  )
+}
 
-export default page;
+export default page
