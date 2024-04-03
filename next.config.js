@@ -1,4 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+// next.config.js
 
-module.exports = nextConfig
+module.exports = {
+    images: {
+      domains: ['m.media-amazon.com', 'merchbar.imgix.net','c.files.bbci.co.uk'],
+    },
+  };
+  
