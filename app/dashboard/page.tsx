@@ -1,5 +1,5 @@
 import Sidebar from "../components/Sidebar";
-import Card from "../components/Card";
+// import Card from "../components/Card";
 export default async function page() {
 
   return (
@@ -8,7 +8,7 @@ export default async function page() {
       <Sidebar />
       <div>
         <div>
-          <Card />
+          {/* <Card /> */}
         </div>
       </div>
     </div>
